@@ -1,0 +1,50 @@
+.header {
+    left: 5%;
+    right: 5%;
+  position: absolute;
+    height: 15%;
+    top: 0;
+    border-bottom-right-radius: 15pt;
+    border-bottom-left-radius: 15pt;
+    background-color: hotpink;
+}
+.sidebar {
+    bottom: 20%;
+    height: 600px;
+    width: 10%;
+    position: fixed; 
+    z-index: 1; 
+    
+    top: 20%; 
+    left: 0;
+    background-color: rgb(241, 3, 134); 
+    opacity: 0.5;
+    overflow-x: hidden; 
+    /*padding-top: 20px;*/
+}
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+}
+.article {
+    height: 68%;
+    right:5%;
+    width: 85%;
+   position: absolute;
+   top: 16%;
+    background-color: rgb(58, 61, 247);
+}
+.footer {
+  
+    left: 5%;
+    right: 5%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 15pt;
+    border-top-left-radius: 15pt;
+    background-color: hotpink;
+}
