@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework 2</title>
+    <script src='Task 2.js'></script>
+ 
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70
+gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <h1> Task 1 </h1>
+    </div> 
+    <div class="google button">
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="onClickFunc1()">GO GOOGLE!</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block"onclick="onClickFunc2()">Clear the page!</button> 
+            <br>   
+            <div class="row justify-content-center"> 
+            <p>This text (and all the other stuff on this page) magically vanishes as soon as you press the button above</p>        
+            </div>  
+
+<script>
+function onClickFunc1() {
+ document.location.href='http://www.google.com';
+}
+
+function onClickFunc2() {
+    document.body.innerHTML='None here';
+   }</script>
+
+            
+            <div class="header">
+                <h1> Task 2 </h1>
+            </div> 
+               <p>Username:</p>
+            <div id="username">
+              
+            </div>
+     </div>
+</body>
+</html>
